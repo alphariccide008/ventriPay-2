@@ -60,9 +60,9 @@ const Footer = () => {
         <img src={footerIcon} alt="logo" className="h-10 mt-1 " />
         </div>
           <p className="text-white  text-center ">
-            <h3 className="font-bold  text-orange-500 py-2" style={{fontSize:'22px'}}>Ventri<span className="text-white">Pay</span></h3>
+            <span className="font-bold  text-orange-500 py-2" style={{fontSize:'22px'}}>Ventri<span className="text-white">Pay</span></span><br />
             
-            <p className="text-sm">shaping the future of crossborder <br />payment in africa.</p>
+            <span className="text-sm">shaping the future of crossborder <br />payment in africa.</span>
             
           </p>
         </div>

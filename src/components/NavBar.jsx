@@ -49,7 +49,7 @@ const NavBar = () => {
         </div>
 
         {/* Hamburger icon for mobile view */}
-        <div className="max-xl:block md:hidden px-2" onClick={handleMenuToggle}>
+        <div className="max-xl:block lg:hidden px-2" onClick={handleMenuToggle}>
           {menuOpen ? (
             <IoMdClose className="text-[30px] text-[#003366] cursor-pointer" />
           ) : (
@@ -62,7 +62,7 @@ const NavBar = () => {
 
         {/* Dropdown menu for mobile */}
         {menuOpen && (
-          <div className="absolute top-full md:hidden left-0  w-full bg-white shadow-lg z-10 max-xl:flex flex-col items-start px-5 ">
+          <div className="absolute top-full lg:hidden left-0  w-full bg-white shadow-lg z-10 max-xl:flex flex-col items-start px-5 ">
             <ul className="w-full ">
               {navLinks.map((item) => (
                 <li key={item.name} className="w-full py-2">

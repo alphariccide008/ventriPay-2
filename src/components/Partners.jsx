@@ -15,7 +15,7 @@ const Partners = () => {
               let’s explore the future together
             </h1>
             <div className="my-7 uppercase">
-              <Button label="Get Started" />
+              <Button children="Get Started"  />
             </div>
           </div>
           <div className="max-sm:px-1 text-center px-16 py-10 flex flex-col ">
