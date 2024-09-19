@@ -62,7 +62,7 @@ const Footer = () => {
           <p className="text-white  text-center ">
             <span className="font-bold  text-orange-500 py-2" style={{fontSize:'22px'}}>Ventri<span className="text-white">Pay</span></span><br />
             
-            <span className="text-sm">shaping the future of crossborder <br />payment in africa.</span>
+            <span className="text-sm">Shaping the future of crossborder <br />Payment in Africa.</span>
             
           </p>
         </div>
@@ -99,7 +99,7 @@ const Footer = () => {
               })}
              </div>
              <div className="px-4">
-               <p className="text-sm text-white ">copyright &copy;2024 ventripay</p>
+               <p className="text-sm text-white ">Copyright &copy;2024 VentriPay</p>
              </div>
       </div>
     </footer>
