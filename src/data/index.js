@@ -33,49 +33,49 @@ export const navLinks = [
 export const trustedIcons = [
   {
     icon: edu,
-    name: "Edu brige",
+    name: "EDU BRIDGE",
   },
   {
     icon: prop,
-    name: "propelio",
+    name: "PROPELIO",
   },
   {
     icon: venture,
-    name: "venture tribe",
+    name: "VENTURE TRIBE",
   },
 ];
 
 export const features = [
   {
     icon: phoneIcon,
-    desc: "airtime & Data",
+    desc: "Airtime & Data",
   },
   {
     icon: paymentIcon,
-    desc: "automatic bill payment",
+    desc: "Automatic Bill Payment",
   },
   {
     icon: loanIcon,
-    desc: "loan",
+    desc: "Loan",
   },
   {
     icon: cardIcon,
-    desc: "virtual card",
+    desc: "Virtual Card",
   },
   {
     icon: transferIcon,
-    desc: "transfer",
+    desc: "Transfer",
   },
   {
     icon: exchangeIcon,
-    desc: "currency exchange",
+    desc: "Currency Exchange",
   },
 ];
 
 export const benefits = [
   {
     title: "fast and secure transactions",
-    desc: " with VentriPay you get to enjoy a seamless fast and secure transactions.",
+    desc: " with VentriPay you get to enjoy a seamless fast, and secure transactions.",
   },
   {
     title: "blockchain technology",
@@ -92,10 +92,10 @@ export const benefits = [
 ];
 
 export const steps = [
-  { no: "step1", icon: signupIcon, label: "sign up on the app" },
-  { no: "step2", icon: setupIcon, label: "set up your account" },
-  { no: "step3", icon: requestIcon, label: "request a virtual card" },
-  { no: "step4", icon: checkIcon, label:"you are all set to use your card" },
+  { no: "step1", icon: signupIcon, label: "Sign up on the App" },
+  { no: "step2", icon: setupIcon, label: "Set up your Account" },
+  { no: "step3", icon: requestIcon, label: "Request a Virtual Card" },
+  { no: "step4", icon: checkIcon, label:"You are all set to use your Card" },
 ];
 
 export const cardBenefits = [
@@ -112,11 +112,11 @@ export const testimonials = [
   },
   {
     icon: quote,
-    quote:"they have one of the best currency conversion rate out there and you should definitely work with them. also. their network is very fast and swift. the best i’ve used.",
+    quote:"they have one of the best currency conversion rate out there and you should definitely work with them. also, their network is very fast and swift, the best i’ve used.",
   },
   {
     icon: quote,
-    quote:"very secured database so you have nothing to worry about your personal details and fraudster. their encryption is top notch.",
+    quote:"very secured database so you have nothing to worry about your personal details and fraudster, their encryption is top notch.",
   },
 ];
 
@@ -124,26 +124,26 @@ export const footerLinks = [
   {
     title: "about",
     links: [
-      { name: "our product", link: "/" },
-      { name: "privacy policy", link: "/" },
-      { name: "how it works", link: "/" },
-      { name: "career", link: "/" },
+      { name: "Our Product", link: "/" },
+      { name: "Privacy Policy", link: "/" },
+      { name: "How it Works", link: "/" },
+      { name: "Career", link: "/" },
     ],
   },
   {
     title: "our services",
     links: [
-      { name: "transactions", link: "/" },
-      { name: "investment", link: "/" },
-      { name: "cards", link: "/" },
-      { name: "help center", link: "/" },
+      { name: "Transactions", link: "/" },
+      { name: "Investment", link: "/" },
+      { name: "Cards", link: "/" },
+      { name: "Help Center", link: "/" },
     ],
   },
   {
     title: "contact us",
     links: [
       { name: "+234080000000", link: "+234080000000" },
-      { name: "ventripay@gmail.com", link: "mailto:ventripay@gmail.com" },
+      { name: "VentriPay@gmail.com", link: "mailto:VentriPay@gmail.com" },
     ],
   },
 ];
