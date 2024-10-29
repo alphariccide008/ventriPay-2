@@ -24,10 +24,10 @@ import {
 } from "../assets/icons";
 
 export const navLinks = [
-  { href: "#home", name: "our services" },
-  { href: "#product", name: "product" },
-  { href: "#about us", name: "about us" },
-  { href: "#blog", name: "blog" },
+  { path: "/services", name: "Services" },
+  { path: "/product", name: "Product" },
+  { path: "/about-us", name: "About Us" },
+  { path: "/blog", name: "Blog" },
 ];
 
 export const trustedIcons = [

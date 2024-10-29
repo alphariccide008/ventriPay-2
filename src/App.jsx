@@ -1,29 +1,21 @@
-import AboutUs from "./components/AboutUs";
-import Benefits from "./components/Benefits";
-import CardBenefits from "./components/CardBenefits";
-import Features from "./components/Features";
-import Footer from "./components/Footer";
-
-import Hero from "./components/Hero";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Newsletter from "./components/Newsletter";
-import Partners from "./components/Partners";
-import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
+import { About_Us, Blog, Home,Product, Services } from "./pages";
+
 
 export default function App() {
   return (
-    <div>
-       <NavBar/>
-       <Hero/>
-       <Partners/>
-       <Features/>
-       <Benefits/>
-       <CardBenefits/>
-       <AboutUs/>
-       <Testimonials/>
-       <Newsletter/>
-       <Footer/>
-    </div>
-   
-  )
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="product" element={<Product/>}/>
+        <Route path="services" element={<Services/>}/>
+        <Route path="about-us" element={<About_Us/>}/>
+        <Route path="blog" element={<Blog/>}/>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
 }
