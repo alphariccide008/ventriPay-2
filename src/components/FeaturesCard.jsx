@@ -9,7 +9,7 @@ const FeaturesCard = ({icon,desc}) => {
         
          />
         <div>
-         <p className="text-sm">{desc}</p>
+         <p className="text-sm md:text-base text-center">{desc}</p>
         </div>
     </div>
 

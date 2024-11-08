@@ -22,8 +22,15 @@ import linkedIn from "./linkedIn.svg"
 import instagram from "./instagram.svg"
 import googlePlay from "./googlePlay.svg"
 import apple from "./apple.svg"
-
-
+import missionIcon from "./missionIcon.svg"
+import visionIcon from "./visionIcon.svg"
+import goalIcon from "./goalsIcon.svg"
+import CoreIcon1 from "./coreIcon1.svg"
+import CoreIcon2 from "./coreIcon2.svg"
+import CoreIcon3 from "./coreIcon3.svg"
+import CoreIcon4 from "./coreIcon5.svg"
+import CoreIcon5 from "./coreIcon5.svg"
+import CoreIcon6 from "./coreIcon6.svg"
 
 export {
     phoneIcon,
@@ -50,5 +57,13 @@ export {
     linkedIn,
     apple,
     googlePlay,
-    
+    goalIcon,
+    missionIcon,
+    visionIcon,
+    CoreIcon1,
+    CoreIcon2,
+    CoreIcon3,
+    CoreIcon4,
+    CoreIcon5,
+    CoreIcon6,
 }

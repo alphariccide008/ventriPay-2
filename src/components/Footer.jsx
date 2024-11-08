@@ -52,7 +52,7 @@ const Footer = () => {
     //       </div>
     //     </footer>
         
-    <footer className="w-full bg-[#003366] sm:px-16 pb-8 divide-y divide-zinc-500 mb-3">
+    <footer className="w-full bg-[#003366] sm:px-16 pb-8 divide-y divide-zinc-500">
       <div className=" max-container px-4 grid max-lg:place-items-center xl:grid-cols-[500px_1fr]">
         <div className="md:flex items-center gap-3 mb-10 xl:mb-0">
         <div className="flex-col justify-center ">

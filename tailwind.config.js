@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'mission-color': '#E43434',   // Custom color for 'our mission'
+        'vision-color': '#01AFD2',    // Custom color for 'our vision'
+        'goal-color': '#1D374E',      // Custom color for 'goals'
+      },
+    },
   },
   plugins: [],
 }

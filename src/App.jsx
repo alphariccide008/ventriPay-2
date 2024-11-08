@@ -7,7 +7,7 @@ import { About_Us, Blog, Home,Product, Services } from "./pages";
 export default function App() {
   return (
     <BrowserRouter>
-      <NavBar />
+    <NavBar />
       <Routes>
         <Route index element={<Home />} />
         <Route path="product" element={<Product/>}/>
